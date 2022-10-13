@@ -56,4 +56,13 @@ $(document).ready(function () {
         $(this).toggleClass('active');
     })
 
+    //* Slider reviews
+
+    $('.reviews-slider').slick({
+        infinite: true,
+        fade: true
+        // autoplay: true,
+        // autoplaySpeed: 2000,
+    });
+
 });
